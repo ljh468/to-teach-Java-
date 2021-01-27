@@ -6,11 +6,11 @@ public class lecture00 {
 
 	public static void main(String[] args) {
 		
-		// boolean는 true, false (1바이트)
 		// int는 정수  (4바이트)
 		// float은 실수 (4바이트)
 		// char는 문자 (2바이트)
 		// string은 문자열 (입력한 글자수 * 2 바이트)
+		// boolean는 true, false (1바이트)
 		int a = 6;
 		int b = 2;
 		
