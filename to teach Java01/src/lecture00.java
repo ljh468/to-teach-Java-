@@ -11,14 +11,15 @@ public class lecture00 {
 		// char는 문자 (2바이트)
 		// string은 문자열 (입력한 글자수 * 2 바이트)
 		// boolean는 true, false (1바이트)
+		
 		int a = 6;
 		int b = 2;
+		String str = "이재훈";
 		
 		System.out.println(a+b);
 		System.out.println(a-b);
 		System.out.println(a*b);
 		System.out.println(a/b);
-
 	}
 
 }
