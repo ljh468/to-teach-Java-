@@ -1,4 +1,4 @@
-// 구구단 출력하기
+// 입력한 숫자의 구구단 출력하기
 import java.util.Scanner;
 
 

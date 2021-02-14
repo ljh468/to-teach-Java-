@@ -1,4 +1,4 @@
-// 구구단 출력하기
+// 입력한 숫자부터 8단까지의 구구단 출력하기
 import java.util.Scanner;
 
 public class lecture05 {
