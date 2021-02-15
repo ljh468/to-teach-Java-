@@ -6,8 +6,6 @@
 //		...
 //		num[89] : 100
 //		총합 : 4995
-import java.util.Scanner;
-
 
 public class lecture04 {
 
@@ -20,6 +18,7 @@ public class lecture04 {
 		for(int i=0; i<num.length; i++) { // 반복문을 이용하여 11부터 100까지 배열에 저장
 			num[i] = i + 11;
 			hap += num[i];
+			
 			// 초기화와 동시에 hap에 누적으로 플러스
 		}
 		int i = 0;

@@ -11,6 +11,7 @@ public class lecture01 {
 			System.out.print("\"" +str[i] + "\" ");
 			// "큰따옴표를 문자로 넣기위해서는 \(백슬러쉬)가 필요함
 		}
+		
 	}
 
 }
