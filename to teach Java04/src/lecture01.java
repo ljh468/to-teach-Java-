@@ -1,10 +1,28 @@
-// String 문자열 "데이터분석과"를 하나씩 쪼개서 문자열배열로 만들고 출력하라
-// 출력예시 : "데" "이" "터" "분" "석" "과"
+// List객체
+// Iterator
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
 public class lecture01 {
-
 	public static void main(String[] args) {
+		List<String> rList = new ArrayList<String>();
+		rList.add("객체지향프로그래밍");
+		rList.add("하둡");
+		rList.add("MongoDB");
 		
-		
+		int i = 0;
+		Iterator<String> it = rList.iterator();
+		while(it.hasNext()) {
+			String str = it.next();
+//		    if(str.equals("객체지향프로그래밍")){
+			if(i==0) {
+				System.out.println("<"+str+">");
+			}else {
+				System.out.println(str);
+			}
+			i++;
+		}		
 	}
-
 }
+
